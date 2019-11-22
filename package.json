@@ -1,0 +1,19 @@
+{
+  "name": "paycheckjs",
+  "version": "1.0.0",
+  "description": "Pacote com função para auxiliar no calculo de folha de pagamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiocesar/paycheckjs.git"
+  },
+  "author": "Kaio Cesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiocesar/paycheckjs/issues"
+  },
+  "homepage": "https://github.com/kaiocesar/paycheckjs#readme"
+}
