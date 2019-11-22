@@ -4,7 +4,8 @@
   "description": "Pacote com função para auxiliar no calculo de folha de pagamento",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/kaiocesar/paycheckjs/issues"
   },
-  "homepage": "https://github.com/kaiocesar/paycheckjs#readme"
+  "homepage": "https://github.com/kaiocesar/paycheckjs#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0"
+  }
 }
