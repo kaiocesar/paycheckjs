@@ -11,5 +11,5 @@ Pacote com função para auxiliar no calculo de folha de pagamento
 
 ### usage
 `const paycheck = require('paycheckjs')`
-
-`paycheck.calcular_inss(3000)`
+`const p = new paycheck()`
+`p.calcular_inss(3000)` # 330

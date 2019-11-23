@@ -62,5 +62,21 @@ describe('testando as funções de calculo', () => {
         })
     })
 
+    describe('DEDUÇÃO: calculo de dependentes', () => {
+        it('2 dependentes', () => {
+            expect(p.calcular_dependentes(2)).toBe(379.18)
+        })
+    })
+
+    describe('DESCONTO: calculo de IRRF', () => {
+        it('Salario de R$1.903,98 e nenhum dependente', () => {
+            expect(p.calcular_irrf(1903.98, 0)).toBe(0)
+        })
+
+        it('Salário de R$3.000,00 e 2 dependentes e R$330,00 de inss', () => {
+            expect(p.calcular_irrf(3000, 2)).toBe(29.01)
+        })
+    })
+
 
 })
