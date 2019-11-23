@@ -19,11 +19,8 @@
   "homepage": "https://github.com/kaiocesar/paycheckjs#readme",
   "devDependencies": {
     "jest": "^24.9.0",
+    "nodemon": "^2.0.1",
     "supertest": "^4.0.2"
   },
-  "dependencies": {
-    "koa": "^2.11.0",
-    "koa-logger": "^3.2.1",
-    "koa-router": "^7.4.0"
-  }
+  "dependencies": {}
 }
