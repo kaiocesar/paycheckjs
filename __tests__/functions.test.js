@@ -95,4 +95,10 @@ describe('testando as funções de calculo', () => {
     })
 
 
+    describe('SALARIO LIQUIDO', () => {
+        it('Salario base de R$3.000,00 e salario liquido de R$2.612,55 e zero dependentes', () => {
+            expect(p.calcular_salario_liquido(3000, 0)).toBe(2612.55)
+        })
+    })
+
 })
