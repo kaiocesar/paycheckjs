@@ -3,10 +3,10 @@ const p = new Paycheck();
 
 describe('testando as funções de calculo', () => {
 
-    //  Calculo do INSS: 
-    //  Calculo do FGTS: 
-    //  Calculo de dependentes: 
-    //  Calculo do IRRF
+    //  * Calculo do INSS: 
+    //  * Calculo do FGTS: 
+    //  * Calculo de dependentes: 
+    //  * Calculo do IRRF
     //  Calcular DSR (Descanso Semanal Remunerado)
     //  Calculo de vale transporte
     //  Calculo de adicional noturno
