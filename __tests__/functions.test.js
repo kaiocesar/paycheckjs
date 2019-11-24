@@ -38,6 +38,10 @@ describe('testando as funções de calculo', () => {
         it('Salário teto de R$5839.46 referente a R$642,34', () => {
             expect(p.calcular_inss(5839.46)).toBe(642.34)
         })
+
+        it('Sálario teto de R$6.000,00 referente a R$642,34', () => {
+            expect(p.calcular_inss(6000)).toBe(642.34)
+        })
     })
 
     describe('BENEFÍCIO: Calculo do FGTS - ', () => {
@@ -75,6 +79,18 @@ describe('testando as funções de calculo', () => {
 
         it('Salário de R$3.000,00 e 2 dependentes e R$330,00 de inss', () => {
             expect(p.calcular_irrf(3000, 2)).toBe(29.01)
+        })
+
+        it('Salário de R$3.000,00 e 0 dependentes e R$330,00', () => {
+            expect(p.calcular_irrf(3000, 0)).toBe(57.45)
+        })
+
+        it('Salário de R$5.000,00 e ZERO dependentes e R$550,00 de inss e faixa de 22,5% de irrf', () => {
+            expect(p.calcular_irrf(5000, 0)).toBe(365.12)
+        })
+
+        it ('Salário teto R$6.000,00, inss de 11% (R$642,34) e IRRF de 27,5% e zero dependentes.', () => {
+            expect(p.calcular_irrf(6000, 0)).toBe(604)
         })
     })
 
