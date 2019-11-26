@@ -94,6 +94,11 @@ describe('testando as funções de calculo', () => {
         })
     })
 
+    describe('DESCONTO: vale transporte', () => {})
+
+    describe('DESCONTO: adicional noturno', () => {})
+
+    describe('DESCONTO: adicional de insalubridade', () => {})    
 
     describe('SALARIO LIQUIDO', () => {
         it('Salário base de R$3.000,00 e salario liquido de R$2.612,55 e zero dependentes', () => {
