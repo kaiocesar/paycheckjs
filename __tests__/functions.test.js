@@ -94,6 +94,9 @@ describe('testando as funções de calculo', () => {
         })
     })
 
+    describe('DESCONTO: DSR (descanso semanal remunerado)', () => {
+    })
+
     describe('DESCONTO: vale transporte', () => {})
 
     describe('DESCONTO: adicional noturno', () => {})
